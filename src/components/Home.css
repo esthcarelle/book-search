@@ -1,0 +1,9 @@
+/*  Custom spinner */
+.custom-spinner {
+    -webkit-animation: fa-spin 1.5s infinite linear;
+    animation: fa-spin 1.5s infinite linear;
+  }
+  .custom-spinner.small-spin{
+    font-size: 13px;
+  }
+  

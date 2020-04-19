@@ -1,0 +1,28 @@
+.box {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.book_color{
+    color:#49B0A3 
+}
+.blue_blackground{
+    background-color:#49B0A3 
+}
+.title{
+   padding:10%;
+   text-align: center;
+}
+#search {
+    width: 100% !important;
+ 
+}
+
+

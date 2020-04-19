@@ -1,0 +1,22 @@
+.color_gray{
+    color:gray !important;
+ 
+}
+.padding{
+    padding:20px;
+   
+}
+.card_width{
+    width:80% !important
+}
+.tab_style{
+    padding:10px !important;
+  
+}
+#nav-tab > .active{
+    border:none;
+    border-bottom: 4px solid #49B0A3 !important;
+    color: gray;
+    background: transparent;
+  
+}

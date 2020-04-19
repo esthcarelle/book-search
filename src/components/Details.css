@@ -1,22 +1,23 @@
-.color_gray{
-    color:gray !important;
- 
+.color_gray {
+  color: gray !important;
 }
-.padding{
-    padding:20px;
-   
+.padding {
+  padding: 20px;
 }
-.card_width{
-    width:80% !important
+.card_width {
+  width: 80% !important;
 }
-.tab_style{
-    padding:10px !important;
-  
+
+.tab_style {
+  padding: 10px !important;
 }
-#nav-tab > .active{
-    border:none;
-    border-bottom: 4px solid #49B0A3 !important;
-    color: gray;
-    background: transparent;
-  
+#nav-tab > .active {
+  border: none;
+  border-bottom: 4px solid #49b0a3 !important;
+  color: gray;
+  background: transparent;
+}
+.image_size {
+  width: 100%;
+  height: 100% !important;
 }

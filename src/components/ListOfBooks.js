@@ -3,15 +3,16 @@ import "./ListOfBooks.css";
 
 class ListOfBooks extends Component {
   render() {
+    console.log(this.props.books);
     return (
       <div className="container-fluid">
         <div className="row" id="bg_color">
           <div className="col-md-1"></div>
           <div className="col-md-11">
-            <h3>{this.props.totalItems} books found</h3>
+            <p>{this.props.totalItems} books found</p>
 
             <div className="container-card-content p-4 mt-3 font_size">
-              {this.props.books ? (
+              {this.props.books.length ? (
                 this.props.books.map(book => {
                   return (
                     <div class="card card_width">

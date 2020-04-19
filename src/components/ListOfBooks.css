@@ -1,85 +1,98 @@
-.card-contant{
-    min-height: 43vh;
-    box-shadow: -1px 0 5px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+.card-contant {
+  min-height: 43vh;
+  box-shadow: -1px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
-.container-card-content{
-    display: grid;
-    
-    font-size:1px !important;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    
-}
-.card{
-    margin: 10px !important;
+.container-card-content {
+  display: grid;
 
-    font-size:1rem !important;   
+  font-size: 1px !important;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.blue_color{
-    background-color:#49B0A3 !important;
-    color:white !important
-    
+.card {
+  margin: 10px !important;
+
+  font-size: 1rem !important;
+}
+.blue_color {
+  background-color: #49b0a3 !important;
+  color: white !important;
 }
 
-.card_width
-{
-    width:12rem !important;
- 
+.card_width {
+  width: 12rem !important;
 }
-.card-img-top{
-    width:auto !important;
-    height:100px !important
+.card-img-top {
+  width: auto !important;
+  height: 100px !important;
 }
 @media screen and (max-width: 1024px) {
-    .container-card-content,.book_display_when_click_details{
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-    }
-    .card_width,.book_display_when_click_details
-{
-    width:10rem !important;
- 
-}
-.font_size{
-    font-size:13px !important
-}
+  .container-card-content,
+  .book_display_when_click_details {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
   }
-  
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    .container-card-content{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    .card_width
-{
-    width:9rem !important;
- 
+  .card_width,
+  .book_display_when_click_details {
+    width: 9rem !important;
+  }
+  .font_size {
+    font-size: 12px !important;
+  }
+  .size {
+    font-size: 9px !important;
+  }
 }
-.font_size{
-    font-size:10px !important
+@media screen and (max-width: 800px) {
+  .container-card-content,
+  .book_display_when_click_details {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .card_width,
+  .book_display_when_click_details {
+    width: 10rem !important;
+  }
+  .font_size {
+    font-size: 10px !important;
+  }
+  .size {
+    font-size: 5px !important;
+  }
 }
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 620px) {
+  .container-card-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
-  @media screen and (max-width: 350px) {
-    .container-card-content{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    .card_width
-{
-    width:7rem !important;
- 
+  .card_width {
+    width: 9rem !important;
+  }
+  .font_size {
+    font-size: 10px !important;
+  }
 }
-.font_size{
-    font-size:8px !important
+@media screen and (max-width: 450px) {
+  .container-card-content {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .card_width {
+    width: 7rem !important;
+  }
+  .size {
+    font-size: 5px !important;
+  }
 }
-  }
-  .card-body{
-      font-size:13px !important
-  }
-  .card-title{
-    font-size:16px !important
-  }
-  .size{
-     font-size:13px !important
-  }
+
+.card-title {
+  font-size: 16px !important;
+}
+
+.size {
+  font-size: 12px !important;
+}
+.card-text {
+  font-size: 12px !important;
+}

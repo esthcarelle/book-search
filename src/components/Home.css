@@ -1,25 +1,25 @@
 /*  Custom spinner */
 .custom-spinner {
-    -webkit-animation: fa-spin 1.5s infinite linear;
-    animation: fa-spin 1.5s infinite linear;
-  }
-  .custom-spinner.small-spin{
-    font-size: 13px;
-  }
-  .book_color{
-    color:#49B0A3 
+  -webkit-animation: fa-spin 1.5s infinite linear;
+  animation: fa-spin 1.5s infinite linear;
 }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding-top:10px;
-    width: 100%;
-    height:5%;
-    background-color: #49B0A3 ;
-    color: white;
-    text-align: center;
-  }
-  .padding{
-    padding-top:10px
-  }
+.custom-spinner.small-spin {
+  font-size: 13px;
+}
+.book_color {
+  color: #49b0a3;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 5%;
+  background-color: #49b0a3;
+  color: white;
+  text-align: center;
+}
+.padding {
+  padding-top: 10px;
+}

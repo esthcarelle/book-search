@@ -3,7 +3,6 @@ import "./ListOfBooks.css";
 
 class ListOfBooks extends Component {
   render() {
-
     return (
       <div className="container-fluid">
         <div className="row" id="bg_color">
